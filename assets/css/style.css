@@ -140,7 +140,7 @@ hgroup {
 
 html,
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins";
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -280,7 +280,7 @@ button.main-button:hover {
   text-align: center;
   font-size: 42px;
   font-weight: 700;
-  color: #1e1e1e;
+  color: #ffffff;
   margin-bottom: 25px;
 }
 
@@ -302,7 +302,7 @@ header
 */
 
 .background-header {
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   height: 80px !important;
   position: fixed !important;
   top: 0px;
@@ -313,19 +313,19 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #1e1e1e !important;
+  color: #ffffff !important;
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #fba70b !important;
+  color: #ffb310 !important;
 }
 
 .background-header .nav li a.active {
-  color: #fba70b !important;
+  color: #ff8800 !important;
 }
 
 .header-area {
-  position: absolute;
+  background-color: black;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -339,12 +339,12 @@ header
 
 .header-area .main-nav {
   min-height: 80px;
-  background: transparent;
+  background: fixed;
 }
 
 .header-area .main-nav .logo {
   line-height: 85px;
-  color: #000000;
+  color: #ffffff;
   font-size: 70px;
   font-weight: 900;
   text-transform: uppercase;
@@ -358,11 +358,11 @@ header
 
 .header-area .main-nav .nav {
   float: left;
-  margin-top: 27px;
-  margin-left: 8%;
+  margin-top: 0px;
+  margin-left: 5%;
   margin-right: 0px;
-  background-color: white;
-  padding: 0px 50px;
+  background-color: rgb(0, 0, 0);
+  padding: 0px 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -372,8 +372,8 @@ header
 }
 
 .header-area .main-nav .nav li {
-  padding-left: 5px;
-  padding-right: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -384,7 +384,7 @@ header
   display: block;
   font-weight: 450;
   font-size: 28px;
-  color: #070606;
+  color: #ffffff;
   text-transform: uppercase;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -409,7 +409,7 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #7a7a7a;
+  color: #000000;
   position: absolute;
   right: 18px;
   top: 12px;
@@ -467,7 +467,7 @@ header
 }
 
 .header-area .main-nav .nav li.submenu ul li a:hover {
-  background: #fff;
+  background: rgb(0, 0, 0);
   color: #fba70b !important;
   padding-left: 25px;
 }
@@ -524,7 +524,7 @@ header
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #1e1e1e;
+  background-color: #ffffff;
   display: block;
   position: absolute;
   width: 30px;
@@ -535,7 +535,7 @@ header
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #1e1e1e;
+  background-color: #ffffff;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -623,8 +623,8 @@ header
     float: none !important;
   }
   .header-area {
-    background-color: #f7f7f7;
-    padding: 0px 15px;
+    background-color: #020202;
+    padding: 0px 5px;
     height: 80px;
     box-shadow: none;
     text-align: center;
@@ -700,7 +700,7 @@ header
     color: #3b566e;
     right: 25px;
     font-size: 14px;
-    top: 15px;
+    top: 5px;
   }
   .header-area .main-nav .nav li.submenu:hover ul,
   .header-area .main-nav .nav li.submenu:focus ul {
@@ -721,18 +721,17 @@ welcome
 */
 .welcome-area {
  
-  min-height: 450px;
-  background-image: url(../images/mainbg1.png);
+  min-height: 900px;
+  background-image: url(../images/new\ 1.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: white;
 }
 
 .welcome-area .header-text .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 25%;
+  margin-top: 20%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
@@ -752,11 +751,11 @@ welcome
 
 .welcome-area .header-text p {
   font-weight: 300;
-  font-size: 17px;
+  font-size: 25px;
   color: #7a7a7a;
-  line-height: 30px;
-  letter-spacing: 0.35px;
-  margin-bottom: 20px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
   position: relative;
 }
 
@@ -796,7 +795,7 @@ welcome
   }
 
   .welcome-area .header-text {
-    padding-top: 100%;
+    padding-top: 65%;
     margin-left: 0;
   }
 
@@ -1315,30 +1314,30 @@ preloader
 
 .welcome-area1 {
 
-  min-height: 450px;
-  background-image: url(../images/bgg5.png);
+  min-height: 900px;
+  background-image: url(../images/Group\ 8.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
-.welcome-area1 .header-text .left-text {
+.welcome-area1 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 25%;
+  margin-top: 15%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area1 .header-text1 h1 {
   font-weight: 700;
-  font-size: 55px;
-  line-height: 70px;
-  letter-spacing: 3px;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 4px;
   margin-top: 10%;
   margin-bottom: 40px;
 
-  color: #ffffff;
+  color: #070707;
 }
 
 .welcome-area1 .header-text1 h1 em {
@@ -1358,14 +1357,14 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area1 .header-text1 {
-    width: 70%;
+    width: 100%;
     margin-left: 5%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area1 .header-text1 .left-text {
-    margin-top: 50%;
+    margin-top: 0%;
   }
   .welcome-area1 .header-text1 {
     width: 50%;
@@ -1379,7 +1378,7 @@ preloader
   }
   .welcome-area1 .header-text1 {
     width: 92%;
-    padding-top: 793px;
+    padding-top: 100px;
   }
   .welcome-area1 .header-text1 .left-text {
     margin-top: 5%;
@@ -1392,7 +1391,7 @@ preloader
   }
 
   .welcome-area1 .header-text1 {
-    padding-top: 100%;
+    padding-top: 50%;
     margin-left: 0;
   }
 
@@ -1445,18 +1444,17 @@ preloader
 
 .welcome-area2 {
 
-  min-height: 450px;
-  background-image: url(../images/supra1\ 1.png);
+  min-height: 900px;
+  background-image: url(../images/Group\ 6\ \(1\).png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(0, 0, 0);
 }
 
-.welcome-area2 .header-text .left-text {
+.welcome-area2 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 25%;
+  margin-top: 5%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
@@ -1468,7 +1466,7 @@ preloader
   margin-top: 10%;
   margin-bottom: 40px;
 
-  color: #ce2626;
+  color: #000000;
 }
 
 .welcome-area2 .header-text1 h1 em {
@@ -1488,14 +1486,14 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area2 .header-text1 {
-    width: 70%;
+    width: 100%;
     margin-left: 5%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area2 .header-text1 .left-text {
-    margin-top: 50%;
+    margin-top: 0%;
   }
   .welcome-area2 .header-text1 {
     width: 50%;
@@ -1503,13 +1501,13 @@ preloader
   }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1550px) {
   .welcome-area2 {
     height: auto;
   }
   .welcome-area2 .header-text1 {
     width: 92%;
-    padding-top: 793px;
+    padding-top: 100px;
   }
   .welcome-area2 .header-text1 .left-text {
     margin-top: 5%;
@@ -1522,7 +1520,7 @@ preloader
   }
 
   .welcome-area2 .header-text1 {
-    padding-top: 100%;
+    padding-top: 50%;
     margin-left: 0;
   }
 
@@ -1588,35 +1586,35 @@ preloader
 
 .welcome-area3 {
 
-  min-height: 450px;
-  background-image: url(../images/meff.jpg);
+  min-height: 900px;
+  background-image: url(../images/Group\ 7.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
-.welcome-area3 .header-text .left-text {
+.welcome-area3 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 25%;
+  margin-top: 5%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area3 .header-text1 h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 70px;
   line-height: 80px;
   letter-spacing: 4px;
   margin-top: 10%;
   margin-bottom: 40px;
 
-  color: #ce2626;
+  color: #000000;
 }
 
 .welcome-area3 .header-text1 h1 em {
   font-style: normal;
-  color: #fba70b;
+  color: #b47601;
 }
 
 .welcome-area3 .header-text1 p {
@@ -1631,14 +1629,14 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area3 .header-text1 {
-    width: 70%;
+    width: 100%;
     margin-left: 5%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area3 .header-text1 .left-text {
-    margin-top: 50%;
+    margin-top: 0%;
   }
   .welcome-area3 .header-text1 {
     width: 50%;
@@ -1646,18 +1644,19 @@ preloader
   }
 }
 
-@media (max-width: 1140px) {
+@media (max-width: 1550px) {
   .welcome-area3 {
     height: auto;
-  }
-  .welcome-area3 .header-text1 {
+  } 
+  .welcome-area3 .header-text1{
     width: 92%;
-    padding-top: 793px;
+    padding-top: 100px;
   }
-  .welcome-area3 .header-text1 .left-text {
+  .welcome-area3 .header-text1 .left-text{
     margin-top: 5%;
     transform: none !important;
   }
+  
 }
 @media (max-width: 810px) {
   .welcome-area3 {
@@ -1665,7 +1664,96 @@ preloader
   }
 
   .welcome-area3 .header-text1 {
-    padding-top: 100%;
+    padding-top: 50%;
+    margin-left: 0;
+}
+}
+.container-fluid .col-md-12{
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+
+.welcome-area4 {
+
+  min-height: 900px;
+  background-image: url(../images/Group\ 9.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: rgb(255, 255, 255);
+}
+
+.welcome-area4 .header-text1 .left-text {
+  position: relative;
+  align-self: center;
+
+  margin-top: 15%;
+  transform: perspective(1px) translateY(-30%) !important;
+}
+
+.welcome-area4 .header-text1 h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 80px;
+  letter-spacing: 4px;
+  margin-top: 10%;
+  margin-bottom: 40px;
+
+  color: #070707;
+}
+
+.welcome-area4 .header-text1 h1 em {
+  font-style: normal;
+  color: #fba70b;
+}
+
+.welcome-area4 .header-text1 p {
+  font-weight: 300;
+  font-size: 17px;
+  color: #7a7a7a;
+  line-height: 30px;
+  letter-spacing: 0.35px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+@media (max-width: 1420px) {
+  .welcome-area4 .header-text1 {
+    width: 100%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1320px) {
+  .welcome-area4 .header-text1 .left-text {
+    margin-top: 0%;
+  }
+  .welcome-area4 .header-text1 {
+    width: 50%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1140px) {
+  .welcome-area4 {
+    height: auto;
+  }
+  .welcome-area4 .header-text1 {
+    width: 92%;
+    padding-top: 100px;
+  }
+  .welcome-area4 .header-text1 .left-text {
+    margin-top: 5%;
+    transform: none !important;
+  }
+}
+@media (max-width: 810px) {
+  .welcome-area4 {
+    background-size: contain;
+  }
+
+  .welcome-area4 .header-text1 {
+    padding-top: 50%;
     margin-left: 0;
   }
 
