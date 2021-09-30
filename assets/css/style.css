@@ -142,7 +142,7 @@ html,
 body {
   font-family: "Poppins";
   font-weight: 400;
-  background-color: #fff;
+  background-color: rgb(0, 0, 0);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -180,7 +180,7 @@ global styles
 */
 html,
 body {
-  background: #fff;
+  background: rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
 }
 
@@ -227,7 +227,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #f1556a;
+  background-color: #b19600;
 }
 
 a.main-button {
@@ -246,7 +246,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #f1556a;
+  background-color: #770716;
 }
 
 button.main-button {
@@ -268,7 +268,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #f1556a;
+  background-color: #f1ba55;
 }
 
 .center-heading {
@@ -302,13 +302,13 @@ header
 */
 
 .background-header {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(25, 0, 250);
   height: 80px !important;
   position: fixed !important;
   top: 0px;
   left: 0px;
   right: 0px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 0px 10px rgba(22, 47, 190, 0.01) !important;
 }
 
 .background-header .logo,
@@ -325,7 +325,9 @@ header
 }
 
 .header-area {
-  background-color: black;
+  background-color: rgba(27, 2, 85, 0.9);
+  background-image: url(../images/who.png);
+  background-repeat: no-repeat;
   top: 0px;
   left: 0px;
   right: 0px;
@@ -361,7 +363,7 @@ header
   margin-top: 0px;
   margin-left: 5%;
   margin-right: 0px;
-  background-color: rgb(0, 0, 0);
+  
   padding: 0px 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -397,7 +399,7 @@ header
 }
 
 .header-area .main-nav .nav li:hover a {
-  color: #e22200;
+  color: #b46e05;
 }
 
 .header-area .main-nav .nav li.submenu {
@@ -604,7 +606,7 @@ header
 }
 
 .header-area.header-sticky .nav li a.active {
-  color: #fb0b0b;
+  color: #ebd264;
 }
 
 @media (max-width: 1200px) {
@@ -657,7 +659,7 @@ header
   }
   .header-area .main-nav .nav li {
     width: 100%;
-    background: #fff;
+    background: rgb(0, 0, 0);
     border-bottom: 1px solid #eee;
     padding-left: 0px !important;
     padding-right: 0px !important;
@@ -722,7 +724,7 @@ welcome
 .welcome-area {
  
   min-height: 900px;
-  background-image: url(../images/new\ 1.png);
+  background-image: url(../images/bgmain.png);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -741,7 +743,7 @@ welcome
   line-height: 50px;
   letter-spacing: 3px;
   margin-bottom: 20px;
-  color: #191a20;
+  color: #ffffff;
 }
 
 .welcome-area .header-text h1 em {
@@ -752,7 +754,7 @@ welcome
 .welcome-area .header-text p {
   font-weight: 300;
   font-size: 25px;
-  color: #7a7a7a;
+  color: #ffffff;
   line-height: 35px;
   letter-spacing: 0.5px;
   margin-bottom: 30px;
@@ -827,6 +829,7 @@ about
   border-radius: 15px;
   padding: 60px 30px;
   text-align: center;
+  background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.568);
 }
 
@@ -850,9 +853,10 @@ about
 .features-item h4 {
   margin-top: 0px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #000000;
   margin-bottom: 25px;
 }
+
 
 .features-item .main-button {
   margin-top: 15px;
@@ -1315,29 +1319,29 @@ preloader
 .welcome-area1 {
 
   min-height: 900px;
-  background-image: url(../images/Group\ 8.png);
+  background-image: url(../images/team1.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .welcome-area1 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 15%;
+  margin-top: 20%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area1 .header-text1 h1 {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 80px;
-  letter-spacing: 4px;
-  margin-top: 10%;
-  margin-bottom: 40px;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  
+  margin-bottom: 20px;
 
-  color: #070707;
+  color: #ffffff;
 }
 
 .welcome-area1 .header-text1 h1 em {
@@ -1357,14 +1361,15 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area1 .header-text1 {
-    width: 100%;
+    width: 70%;
     margin-left: 5%;
+    font-size: 12px;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area1 .header-text1 .left-text {
-    margin-top: 0%;
+    margin-top: 70%;
   }
   .welcome-area1 .header-text1 {
     width: 50%;
@@ -1375,13 +1380,14 @@ preloader
 @media (max-width: 1140px) {
   .welcome-area1 {
     height: auto;
+    font-size: 12px;
   }
   .welcome-area1 .header-text1 {
     width: 92%;
-    padding-top: 100px;
+    padding-top: 793px;
   }
   .welcome-area1 .header-text1 .left-text {
-    margin-top: 5%;
+    margin-top: 60%;
     transform: none !important;
   }
 }
@@ -1391,8 +1397,10 @@ preloader
   }
 
   .welcome-area1 .header-text1 {
-    padding-top: 50%;
+    padding-top: 6%;
     margin-left: 0;
+    
+    
   }
 
   .container-fluid .col-md-12 {
@@ -1417,6 +1425,7 @@ preloader
 
 .features1-item {
   border-radius: 15px;
+  background-color: whitesmoke;
   padding: 5px 5px;
   margin-bottom: 18px;
   text-align: center;
@@ -1445,28 +1454,28 @@ preloader
 .welcome-area2 {
 
   min-height: 900px;
-  background-image: url(../images/Group\ 6\ \(1\).png);
+  background-image: url(../images/team1.png);
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: rgb(0, 0, 0);
 }
 
 .welcome-area2 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 15%;
+  margin-top: 20%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area2 .header-text1 h1 {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 80px;
-  letter-spacing: 4px;
-  margin-top: 10%;
-  margin-bottom: 40px;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
 
-  color: #000000;
+  color: #ffffff;
 }
 
 .welcome-area2 .header-text1 h1 em {
@@ -1474,30 +1483,22 @@ preloader
   color: #fba70b;
 }
 
-.welcome-area2 .header-text1 p {
-  font-weight: 300;
-  font-size: 15px;
-  color: #7a7a7a;
-  line-height: 30px;
-  letter-spacing: 0.35px;
-  margin-bottom: 40px;
-  position: relative;
-}
+
 
 @media (max-width: 1420px) {
   .welcome-area2 .header-text1 {
-    width: 20%;
-    margin-left: 2%;
+    width: 70%;
+    margin-left: 5%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area2 .header-text1 .left-text {
-    margin-top: 0%;
+    margin-top: 70%;
   }
   .welcome-area2 .header-text1 {
-    width: 20%;
-    margin-left: 2%;
+    width: 50%;
+    margin-left: 5%;
   }
 }
 
@@ -1506,11 +1507,11 @@ preloader
     height: auto;
   }
   .welcome-area2 .header-text1 {
-    width: 20%;
-    padding-top: 100px;
+    width: 92%;
+    padding-top: 793px;
   }
   .welcome-area2 .header-text1 .left-text {
-    margin-top: 5%;
+    margin-top: 60%;
     transform: none !important;
   }
 }
@@ -1520,7 +1521,7 @@ preloader
   }
 
   .welcome-area2 .header-text1 {
-    padding-top: 50%;
+    padding-top: 6%;
     margin-left: 0;
   }
 
@@ -1587,29 +1588,29 @@ preloader
 .welcome-area3 {
 
   min-height: 900px;
-  background-image: url(../images/Group\ 7.png);
+  background-image: url(../images/team1.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .welcome-area3 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 15%;
+  margin-top: 20%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area3 .header-text1 h1 {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 80px;
-  letter-spacing: 4px;
-  margin-top: 10%;
-  margin-bottom: 40px;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  
+  margin-bottom: 20px;
 
-  color: #000000;
+  color: #ffffff;
 }
 
 .welcome-area3 .header-text1 h1 em {
@@ -1619,7 +1620,7 @@ preloader
 
 .welcome-area3 .header-text1 p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   color: #7a7a7a;
   line-height: 30px;
   letter-spacing: 0.35px;
@@ -1629,18 +1630,18 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area3 .header-text1 {
-    width: 20%;
+    width: 70%;
     margin-left: 2%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area3 .header-text1 .left-text {
-    margin-top: 0%;
+    margin-top: 70%;
   }
   .welcome-area3 .header-text1 {
-    width: 20%;
-    margin-left: 2%;
+    width: 50%;
+    margin-left: 5%;
   }
 }
 
@@ -1649,11 +1650,11 @@ preloader
     height: auto;
   } 
   .welcome-area3 .header-text1{
-    width: 20%;
-    padding-top: 100px;
+    width: 92%;
+    padding-top: 793px;
   }
   .welcome-area3 .header-text1 .left-text{
-    margin-top: 5%;
+    margin-top: 60%;
     transform: none !important;
   }
   
@@ -1664,7 +1665,7 @@ preloader
   }
 
   .welcome-area3 .header-text1 {
-    padding-top: 50%;
+    padding-top: 6%;
     margin-left: 0;
 }
 }
@@ -1677,29 +1678,28 @@ preloader
 .welcome-area4 {
 
   min-height: 900px;
-  background-image: url(../images/Group\ 9.png);
+  background-image: url(../images/team1.png);
   background-repeat: no-repeat;
   background-position: right top;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 .welcome-area4 .header-text1 .left-text {
   position: relative;
   align-self: center;
 
-  margin-top: 15%;
+  margin-top: 20%;
   transform: perspective(1px) translateY(-30%) !important;
 }
 
 .welcome-area4 .header-text1 h1 {
   font-weight: 700;
-  font-size: 50px;
-  line-height: 80px;
-  letter-spacing: 4px;
-  margin-top: 10%;
-  margin-bottom: 40px;
+  font-size: 45px;
+  line-height: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
 
-  color: #070707;
+  color: #ffffff;
 }
 
 .welcome-area4 .header-text1 h1 em {
@@ -1709,7 +1709,7 @@ preloader
 
 .welcome-area4 .header-text1 p {
   font-weight: 300;
-  font-size: 15px;
+  font-size: 17px;
   color: #7a7a7a;
   line-height: 30px;
   letter-spacing: 0.35px;
@@ -1719,18 +1719,18 @@ preloader
 
 @media (max-width: 1420px) {
   .welcome-area4 .header-text1 {
-    width: 20%;
-    margin-left: 2%;
+    width: 70%;
+    margin-left: 5%;
   }
 }
 
 @media (max-width: 1320px) {
   .welcome-area4 .header-text1 .left-text {
-    margin-top: 0%;
+    margin-top: 70%;
   }
   .welcome-area4 .header-text1 {
-    width: 20%;
-    margin-left: 2%;
+    width: 50%;
+    margin-left: 5%;
   }
 }
 
@@ -1739,11 +1739,11 @@ preloader
     height: auto;
   }
   .welcome-area4 .header-text1 {
-    width: 20%;
-    padding-top: 100px;
+    width: 92%;
+    padding-top: 793px;
   }
   .welcome-area4 .header-text1 .left-text {
-    margin-top: 5%;
+    margin-top: 60%;
     transform: none !important;
   }
 }
@@ -1753,7 +1753,7 @@ preloader
   }
 
   .welcome-area4 .header-text1 {
-    padding-top: 50%;
+    padding-top: 6%;
     margin-left: 0;
   }
 
