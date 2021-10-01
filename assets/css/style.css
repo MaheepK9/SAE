@@ -142,7 +142,7 @@ html,
 body {
   font-family: "Poppins";
   font-weight: 400;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   font-size: 16px;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
@@ -180,7 +180,7 @@ global styles
 */
 html,
 body {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(255, 255, 255, 0.1);
   font-family: "Poppins", sans-serif;
 }
 
@@ -326,7 +326,6 @@ header
 
 .header-area {
   background-color: rgba(27, 2, 85, 0.9);
-  background-image: url(../images/who.png);
   background-repeat: no-repeat;
   top: 0px;
   left: 0px;
@@ -727,6 +726,7 @@ welcome
   background-image: url(../images/bgmain.png);
   background-repeat: no-repeat;
   background-position: right top;
+  background-color: #000000;
 }
 
 .welcome-area .header-text .left-text {
